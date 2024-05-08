@@ -1,0 +1,33 @@
+html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 90vw;
+    height: 85vh;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.title-container {
+    padding: 5px;
+}
+
+.alert-location-inputs-container {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: solid;
+}
+
+.card-cvc-amount-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid;
+}
