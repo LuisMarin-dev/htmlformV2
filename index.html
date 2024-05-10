@@ -16,38 +16,75 @@
             <h2>Payment Form Example</h2>
         </div>
         <!-- Alert -->
-        <div class="alert-location-inputs-container">
+        <div class="alert-card-inputs-container">
             <div class="alert alert-danger" role="alert">
                 A simple danger alert—check it out!
             </div>
         <!-- Card, CVC and Amount Inputs -->
             <div class="col-12 card-cvc-amount-container">
-                <div class="col-sm-5">
+                <div class="col-5">
                     <label for="card-input" class="form-label">Card #</label>
-                    <input type="text" class="form-control" id="card-input" placeholder="City" aria-label="City">
+                    <input type="text" class="form-control" id="card-input" placeholder="XXXXXXXXXXXXXX" aria-label="Card">
                 </div>
-                <div class="col-sm-3">
+                <div class="col-3">
                     <label for="cvc-input" class="form-label">CVC #</label>
-                    <input type="text" class="form-control" id="CVC-input" placeholder="State" aria-label="State">
+                    <input type="text" class="form-control" id="CVC-input" placeholder="0000" aria-label="CVC">
                 </div>
-                <div class="col-sm-3">
+                <div class="col-3">
                     <label for="amount-input" class="form-label">Amount</label>
-                    <input type="text" class="form-control" id="amount-input" placeholder="Zip" aria-label="Zip">
+                    <input type="text" class="form-control" id="amount-input" placeholder="$ Amount" aria-label="Amount">
                 </div>
             </div>
-            <!-- First and last name inputs -->
-            <div class="col-12 names-container">
-                <div class="col-sm-5">
-                    <label for="firstname-input" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstname-input" aria-label="City">
-                </div>
-                <div class="col-sm-5">
-                    <label for="lastname-input" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="lastname-input" aria-label="City">
-                </div>
-            </div>
-
         </div>
+
+        <!-- First name, city and card type radio inputs -->
+        <div class="col-12 firstname-city-radio-container">
+            <div class="col-6 fcr-container">
+                <div class="col-11">
+                    <label for="firstname-input" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstname-input" aria-label="First name">
+                </div>
+                <div class="col-11">
+                    <label for="city-input" class="form-label">City</label>
+                    <input type="text" class="form-control" id="city-input" aria-label="City">
+                </div>
+                <!-- Card Company Radio  -->
+                <div class="card-radio-input-container">
+                    <label for="card-radio-input" class="form-label">We accept:</label>
+                    <div class="col-12 card-radio-input bg-secondary">
+                        <div class="form-check form-check-inline" id="radio-input-container">
+                            <input class="form-check-input" type="radio" name="radioWithLabel1" id="radio1" value="">
+                            <label class="form-check-label" for="radio1">
+                                <img src="./img/mastercard.png" width="25px" height="25px" alt="">
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="radioWithLabel2" id="radio2" value="">
+                            <label class="form-check-label" for="radio2">
+                                <img src="./img/visa.png" width="25px" height="25px" alt="">
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="radioWithLabel3" id="radio3" value="">
+                            <label class="form-check-label" for="radio3">
+                                <img src="./img/discover.png" width="25px" height="25px" alt="">
+                            </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="radioWithLabel4" id="radio4" value="">
+                            <label class="form-check-label" for="radio4">
+                                <img src="./img/amex.png" width="25px" height="25px" alt="">
+                            </label>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 fcr-container"></div>
+        </div>
+
+
+
+
     </div>
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

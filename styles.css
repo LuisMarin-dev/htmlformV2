@@ -18,21 +18,69 @@ html {
     padding: 5px;
 }
 
-.alert-location-inputs-container {
+.alert-card-inputs-container {
     width: 100%;
     height: auto;
     margin-top: 20px;
-    border: solid;
+    /* border: solid; */
 }
 
 .card-cvc-amount-container {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    border: solid;
+    /* border: solid; */
 }
 
+/* .firstname-city-radio-container {
+    border: solid red;
+} */
+
+.fcr-container{
+    margin-top: 15px !important;
+    padding-left: 15px !important;
+    /* border: solid blue; */
+}
+
+.card-radio-input-container {
+    width: 50%;
+    height: auto;
+    /* border: solid black; */
+}
+
+.card-radio-input {
+    width: 95% !important;
+    height: 40px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 6px;
+    border-radius: 5px;
+    /* border: solid greenyellow; */
+}
+
+.card-radio-input form-check-inline {
+    margin-right: 5px !important;
+}
+
+
+
+
+
+
+
+/* 
 .names-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    border: solid;
 }
+
+.city-state-zip-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: solid cyan;
+} */
