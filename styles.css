@@ -31,3 +31,8 @@ html {
     justify-content: space-evenly;
     border: solid;
 }
+
+.names-container {
+    display: flex;
+    flex-direction: row;
+}
