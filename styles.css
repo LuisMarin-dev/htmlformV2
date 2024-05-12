@@ -32,14 +32,15 @@ html {
     /* border: solid; */
 }
 
-/* .firstname-city-radio-container {
-    border: solid red;
-} */
+.user-data-container {
+    display: flex;
+    flex-direction: row;
+}
 
-.fcr-container{
+.firstname-city-radio{
     margin-top: 15px !important;
     padding-left: 15px !important;
-    /* border: solid blue; */
+    border: solid blue;
 }
 
 .card-radio-input-container {
@@ -64,7 +65,10 @@ html {
     margin-right: 5px !important;
 }
 
-
+.ln-state-zip-msg-container {
+    margin-top: 15px !important;
+    border: solid;
+}
 
 
 
