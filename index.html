@@ -79,9 +79,31 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ln-state-zip-msg-container"></div>
+            <!-- Last name, state, postal code and message container -->
+            <div class="col-6 ln-state-zip-msg-container">
+                <div class="col-11">
+                    <label for="firstname-input" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstname-input" aria-label="First name">
+                </div>
+                <div class="col-11 state-zip-container">
+                    <div class="state-select-container col-5">
+                        <label for="state-select" class="form-label">State</label>
+                        <select class="form-select state-selectr" id="state-select" aria-label="State select example">
+                            <option selected>Pick a State</option>
+                            <option value="1">Geneva</option>
+                            <option value="2">Zurich</option>
+                            <option value="3">Appenzel</option>
+                        </select>
+                    </div>
+                    <div class="col-5">
+                        <label for="zip-input" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="zip-input" placeholder="" aria-label="Zip Code">
+                    </div>
+                </div>
+            </div>
         </div>
-
+        
+        <!--  -->
 
 
 
