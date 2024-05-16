@@ -9,7 +9,7 @@ html {
 
 .form-container {
     width: 90vw;
-    height: 85vh;
+    height: 93vh;
     border-radius: 5px;
     border: solid black 1px;
 }
@@ -76,22 +76,10 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: solid 1px blueviolet;
+    /* border: solid 1px blueviolet; */
 }
 
-
-
-/* 
-.names-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: solid;
+.textarea-container {
+    margin-right: 15px;
+    /* border: solid pink; */
 }
-
-.city-state-zip-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    border: solid cyan;
-} */
