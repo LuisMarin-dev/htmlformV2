@@ -83,3 +83,14 @@ html {
     margin-right: 15px;
     /* border: solid pink; */
 }
+
+.foot-buttons-container {
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center !important;
+}
+
+.foot-buttons-container button {
+    margin-right: 10px;
+}
